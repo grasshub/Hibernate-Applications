@@ -71,7 +71,7 @@ public class TestClient {
 		
 		Screen.ScreenId screenId = new Screen.ScreenId();
 		
-		screenId.setCinemaId(001122);
+		screenId.setCinemaId(111111);
 		screenId.setScreenNumber(1);
 		
 		screen.setId(screenId);
