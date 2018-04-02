@@ -70,9 +70,9 @@ public class TestClient {
 		Screen screen = new Screen();
 		
 		Screen.ScreenId screenId = new Screen.ScreenId();
-		
-		screenId.setCinemaId(111111);
-		screenId.setScreenNumber(1);
+		// Need to change either cinemaId or screenNumber to avoid duplecate key.
+		screenId.setCinemaId(222222);
+		screenId.setScreenNumber(2);
 		
 		screen.setId(screenId);
 		screen.setSeats(355);
